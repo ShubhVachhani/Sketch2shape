@@ -1,0 +1,33 @@
+{
+  "mode": "cpu",
+  "prompt": "",
+  "seed": 42,
+  "color": "#77b8ee",
+  "depth": 0.45,
+  "timings": {
+    "preprocess_seconds": 0.20492160000139847,
+    "reconstruction_seconds": 0.932180799994967,
+    "total_seconds": 3.3719484000030207
+  },
+  "validation": {
+    "vertices": 70486,
+    "triangles": 140972,
+    "extents": [
+      2.0,
+      1.9259629249572754,
+      1.0952037572860718
+    ],
+    "watertight": true,
+    "appearance": [
+      "vertex"
+    ]
+  },
+  "input_sha256": "c2f982b1c9c687a3ecb413e1c4ff3c09ef4fe689fe02fc20d99f033249485783",
+  "hardware": {
+    "platform": "Windows-11-10.0.26300-SP0",
+    "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+    "cpu_count": 8
+  },
+  "models": [],
+  "limitations": "AI unseen surfaces are inferred. CPU mode is silhouette inflation, not generative AI; prompt semantics are not interpreted in CPU mode. OBJ export is geometry-only; use GLB for appearance."
+}
